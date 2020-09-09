@@ -1,0 +1,31 @@
+
+log Entry : 
+08/28/2020 10:08:07
+Error in: https://localhost:44364/. 
+
+Error Message:No file was uploaded
+========================================
+
+log Entry : 
+08/28/2020 11:04:48
+Response in: https://localhost:44364/. 
+
+Response Message:No file was uploaded
+
+Request: 
+<?xml version="1.0" encoding="UTF - 8" standalone="yes"?><PaymentRequestCommand><ScheduleId>UAT_1</ScheduleId><ClientId>NIBSS_V2001</ClientId><DebitBankCode>044</DebitBankCode><DebitAccountNumber>0123456789</DebitAccountNumber></PaymentRequestCommand>
+
+Response Code: 03
+========================================
+
+log Entry : 
+08/28/2020 11:57:06
+Response in: https://localhost:44364/. 
+
+Response Message:Upload was successful
+
+Request: 
+<?xml version="1.0" encoding="UTF - 8" standalone="yes"?><PaymentRequestCommand><ScheduleId>UAT_1</ScheduleId><ClientId>NIBSS_V2001</ClientId><DebitBankCode>044</DebitBankCode><DebitAccountNumber>0123456789</DebitAccountNumber></PaymentRequestCommand>
+
+Response Code: 16
+========================================

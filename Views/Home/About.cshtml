@@ -4,4 +4,25 @@
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<div class="row">
+    <div class="col-md-4 col-lg-offset-4">
+
+
+    
+
+        @using (Html.BeginForm("About", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+            <input type="file" name="postedFile" class="form-control" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            <input type="submit" class="btn btn-primary btn-block" value="Upload" style="margin-top:2px;" />
+
+        }
+
+        <br /><br /><br />
+
+
+
+    </div>
+
+
+</div>

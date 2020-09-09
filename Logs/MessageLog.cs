@@ -11,8 +11,10 @@ namespace ReadExcelFile.Logs
 {
     public static class MessageLog
     {
-        public static void LogError(string message)
+        public static void LogError(string message, string requestSent, string responseCode)
         {
+             
+
             try
             {
                 string path = "~/Logs/" + DateTime.Today.ToString("dd-MM-yy") + ".text";
@@ -24,7 +26,7 @@ namespace ReadExcelFile.Logs
                 {
                     w.WriteLine("\r\nlog Entry : ");
                     w.WriteLine("{0}", DateTime.Now.ToString(CultureInfo.InvariantCulture));
-                    string err = "Error in: " + System.Web.HttpContext.Current.Request.Url.ToString() + ". \n\nError Message:" + message;
+                    string err = "Response in: " + System.Web.HttpContext.Current.Request.Url.ToString() + ". \n\nResponse Message:" + message + "\n\nRequest: \n" + requestSent +  "\n\nResponse Code: " + responseCode;
                     w.WriteLine(err);
                     w.WriteLine("========================================");
                     w.Flush();
