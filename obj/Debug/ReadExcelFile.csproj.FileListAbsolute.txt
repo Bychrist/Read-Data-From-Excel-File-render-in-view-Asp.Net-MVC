@@ -128,3 +128,7 @@ C:\Users\OrdainedBychrist\source\repos\ReadExcelFile\bin\System.Runtime.Compiler
 C:\Users\OrdainedBychrist\source\repos\ReadExcelFile\bin\System.Text.Encodings.Web.xml
 C:\Users\OrdainedBychrist\source\repos\ReadExcelFile\bin\System.Web.Http.xml
 C:\Users\OrdainedBychrist\source\repos\ReadExcelFile\bin\System.Web.Http.WebHost.xml
+C:\Users\OrdainedBychrist\source\repos\ReadExcelFile\bin\DocumentFormat.OpenXml.dll
+C:\Users\OrdainedBychrist\source\repos\ReadExcelFile\bin\System.IO.Packaging.dll
+C:\Users\OrdainedBychrist\source\repos\ReadExcelFile\bin\DocumentFormat.OpenXml.xml
+C:\Users\OrdainedBychrist\source\repos\ReadExcelFile\bin\System.IO.Packaging.xml

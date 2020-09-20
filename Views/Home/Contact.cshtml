@@ -1,17 +1,28 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "COntact";
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div class="row">
+    <div class="col-md-4 col-lg-offset-4">
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+
+
+
+        @using (Html.BeginForm("contact", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+            <input type="file" name="postedFile" class="form-control" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            <input type="submit" class="btn btn-primary btn-block" value="Upload" style="margin-top:2px;" />
+
+        }
+
+        <br /><br /><br />
+
+
+
+    </div>
+
+
+</div>

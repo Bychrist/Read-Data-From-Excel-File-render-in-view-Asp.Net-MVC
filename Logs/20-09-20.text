@@ -1,0 +1,36 @@
+
+log Entry : 
+09/20/2020 13:41:00
+Response in: https://localhost:44364/. 
+
+Response Message:Upload was successful
+
+Request: 
+<?xml version="1.0" encoding="UTF - 8" standalone="yes"?><PaymentRequestCommand><ScheduleId>UAT_1</ScheduleId><ClientId>NIBSS_V2001</ClientId><DebitBankCode>044</DebitBankCode><DebitAccountNumber>0123456789</DebitAccountNumber></PaymentRequestCommand>
+
+Response Code: 16
+========================================
+
+log Entry : 
+09/20/2020 13:42:36
+Response in: https://localhost:44364/. 
+
+Response Message:Upload was successful
+
+Request: 
+<?xml version="1.0" encoding="UTF - 8" standalone="yes"?><PaymentRequestCommand><ScheduleId>UAT_1</ScheduleId><ClientId>NIBSS_V2001</ClientId><DebitBankCode>044</DebitBankCode><DebitAccountNumber>0123456789</DebitAccountNumber></PaymentRequestCommand>
+
+Response Code: 16
+========================================
+
+log Entry : 
+09/20/2020 13:43:07
+Response in: https://localhost:44364/. 
+
+Response Message:Upload was successful
+
+Request: 
+<?xml version="1.0" encoding="UTF - 8" standalone="yes"?><PaymentRequestCommand><ScheduleId>UAT_1</ScheduleId><ClientId>NIBSS_V2001</ClientId><DebitBankCode>044</DebitBankCode><DebitAccountNumber>0123456789</DebitAccountNumber></PaymentRequestCommand>
+
+Response Code: 16
+========================================
